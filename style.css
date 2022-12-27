@@ -8,6 +8,7 @@
 }
 
 :root{
+    --fundoDoSubtitulo : #9ee9c0 ;
     --cor0: #ebe5c5;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -54,10 +55,11 @@ header{
  h2 {
     color:var(--cor4);
 }
-
-body > h1,h2 {
-    font-family: 'android';
+ h1,h2, {
+    font-family: ('android');
+    background-image:repeating-linear-gradient(to right ,var(--fundoDoSubtitulo), transparent);
 }
+
 
 .menu > a:hover {
     background-color: var(--cor3);
@@ -81,6 +83,7 @@ body > h1,h2 {
 *{
     padding:0%;
     margin:0%;
+    
 }
 
 main {
