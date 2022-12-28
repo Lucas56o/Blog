@@ -18,8 +18,6 @@
     
     --fonte-padrão:Arial, Verdana, Helvetica, sans-serif;
     --font-destaque:'Bebas Neue';
-    --font-android: 'android';
-
 }
 
 body{
@@ -51,12 +49,13 @@ header{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.323);
 }
 
-
- h2 {
+h2 {
     color:var(--cor4);
+    
 }
- h1,h2, {
-    font-family: ('android');
+
+article h1,h2 {
+    font-family:'android';
     background-image:repeating-linear-gradient(to right ,var(--fundoDoSubtitulo), transparent);
 }
 
@@ -108,9 +107,11 @@ header, .menu{
 
 }
 
-/*img{
-    width: 100%;
-}*/
+main  strong {
+    color:var(--cor4);
+    font-weight: bold;
+}
+
 
 footer a{
     color: white;
